@@ -9,7 +9,7 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-    return res.status(200).json({ message: "Cloud Run and Cloud Build Demo - CI/CD Pipeline" });
+    return res.status(200).json({ message: "Cloud Run, Cloud Build, and Artifact Registry Demo - CI/CD Pipeline" });
 });
 
 app.get("/echo/:text", (req, res) => {
